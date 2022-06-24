@@ -4,10 +4,21 @@ import { Container } from "../../theme/Style";
 export const PreviewCardWrapper = styled(Container)`
   display: flex;
   height: 500px;
+
+  @media screen and (max-width: 727px) {
+    flex-direction: column;
+    width: 90%;
+    height: 450px;
+  }
 `;
 
 export const PreviewCardColOne = styled.div`
   width: 50%;
+
+  @media screen and (max-width: 727px) {
+    width: 100%;
+    height: 300px;
+  }
 `;
 
 export const PreviewCardImage = styled.img`
@@ -17,6 +28,13 @@ export const PreviewCardImage = styled.img`
   border-radius: 1rem;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+
+  @media screen and (max-width: 727px) {
+    width: 100%;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 `;
 
 export const PreviewCardColTwo = styled.div`
@@ -26,6 +44,13 @@ export const PreviewCardColTwo = styled.div`
   border-radius: 1rem;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+
+  @media screen and (max-width: 727px) {
+    width: 100%;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
 `;
 
 export const PreviewCardSubHeading = styled.h4`
@@ -65,6 +90,6 @@ export const PreviewCardOldPrice = styled.span`
 export const PreviewCardPrices = styled.div`
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 200px;
   justify-content: space-between;
 `;

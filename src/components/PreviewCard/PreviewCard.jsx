@@ -44,6 +44,7 @@ const PreviewCard = ({
           <PreviewCardPrice>{price}</PreviewCardPrice>
           <PreviewCardOldPrice>{oldPrice}</PreviewCardOldPrice>
         </PreviewCardPrices>
+        {/* Add to Cart Button */}
       </PreviewCardColTwo>
     </PreviewCardWrapper>
   );

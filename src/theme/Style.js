@@ -30,10 +30,11 @@ export const Style = createGlobalStyle`
 `;
 
 export const Container = styled.section`
-  width: 50%;
+  width: 700px;
   margin: 5rem auto 0 auto;
 
-  @media screen and (max-width: 800px) {
-    width: 90%;
+  @media screen and (max-width: 750px) {
+    width: 80%;
+    margin-top: 1rem;
   }
 `;
