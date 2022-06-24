@@ -10,7 +10,10 @@ import {
   PreviewCardOldPrice,
   PreviewCardPrice,
   PreviewCardPrices,
+  AddToCartButtonContainer,
 } from "./PreviewCard.styles";
+import Button from "../Button/Button";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const PreviewCard = ({
   image,
@@ -45,6 +48,13 @@ const PreviewCard = ({
           <PreviewCardOldPrice>{oldPrice}</PreviewCardOldPrice>
         </PreviewCardPrices>
         {/* Add to Cart Button */}
+        <AddToCartButtonContainer>
+          <Button
+            title={"Add to Cart"}
+            type="button"
+            Icon={() => <AiOutlineShoppingCart size={20} />}
+          />
+        </AddToCartButtonContainer>
       </PreviewCardColTwo>
     </PreviewCardWrapper>
   );

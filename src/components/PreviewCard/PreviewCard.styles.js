@@ -93,3 +93,7 @@ export const PreviewCardPrices = styled.div`
   width: 200px;
   justify-content: space-between;
 `;
+
+export const AddToCartButtonContainer = styled.div`
+  margin-top: 1rem;
+`;
