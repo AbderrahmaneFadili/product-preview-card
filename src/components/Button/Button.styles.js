@@ -14,6 +14,12 @@ export const ButtonElement = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  position: relative;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    background-color: var(--very-dark-cyan);
+  }
 `;
 
 export const ButtonTitle = styled.span`

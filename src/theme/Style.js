@@ -12,10 +12,12 @@ export const Style = createGlobalStyle`
         :root {
           //colors
          --dark-cyan:hsl(158, 36%, 37%);
+         --very-dark-cyan:#1a4239;
          --cream:hsl(30, 38%, 92%);
          --very-dark-blue:hsl(212, 21%, 14%);
          --dark-grayish-blue:hsl(228, 12%, 48%);
          --white:hsl(0, 0%, 100%);
+         --black:#000;
          //typographie
          --main-font-size:14px;
          --fraunces-font-family: 'Fraunces', serif;
