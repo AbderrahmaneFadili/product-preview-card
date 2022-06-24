@@ -28,6 +28,7 @@ export const Style = createGlobalStyle`
           font-family:var(--montserrat-font-family);
           font-size:var(--main-font-size);
           background:var(--cream);
+          height:990px;
         }
 `;
 
