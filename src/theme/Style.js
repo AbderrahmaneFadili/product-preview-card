@@ -25,7 +25,15 @@ export const Style = createGlobalStyle`
         body {
           font-family:var(--montserrat-font-family);
           font-size:var(--main-font-size);
+          background:var(--cream);
         }
 `;
 
-export const Container = styled.div``;
+export const Container = styled.section`
+  width: 50%;
+  margin: 5rem auto 0 auto;
+
+  @media screen and (max-width: 800px) {
+    width: 90%;
+  }
+`;
