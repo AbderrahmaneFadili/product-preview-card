@@ -17,7 +17,7 @@ export const Style = createGlobalStyle`
          --dark-grayish-blue:hsl(228, 12%, 48%);
          --white:hsl(0, 0%, 100%);
          //typographie
-         --main-font-size:14px
+         --main-font-size:14px;
          --fraunces-font-family: 'Fraunces', serif;
          --montserrat-font-family: 'Montserrat', sans-serif;
         }
